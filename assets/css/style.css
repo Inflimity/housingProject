@@ -982,6 +982,15 @@ Featured Style
   margin-bottom: 60px;
 }
 
+/* Update for the Process Section Steps */
+.properties .item .category {
+  /* This ensures the step badge looks good even if it's not a house category */
+  margin-top: 0px;
+  margin-bottom: 15px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
 .featured .section-heading h2 {
   width: 70%;
 }
@@ -1346,6 +1355,7 @@ Contact Style
 .contact-content {
   margin-top: -240px;
   position: relative;
+  margin-bottom: 50px;
   z-index: 1;
 }
 
@@ -1983,4 +1993,93 @@ body {
   .contact-page .section-heading {
     margin-right: 100px;
   }
+}
+
+/* ---------------------------------------------
+   Enhanced Footer Style
+--------------------------------------------- */
+footer {
+  background-color: #1e1e1e;
+  padding: 80px 0px 20px 0px;
+  /* More top padding for the columns */
+  color: #fff;
+}
+
+/* Headings in Footer */
+footer h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Standard Text */
+footer p,
+footer li {
+  color: #bbb;
+  /* Softer grey for readability */
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* Column Spacing */
+.footer-item {
+  margin-bottom: 30px;
+}
+
+/* Icons styling */
+footer i {
+  color: #f35525;
+  /* Your Theme Orange */
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+/* Contact List specific */
+ul.contact-list li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+ul.contact-list li a {
+  color: #bbb;
+  transition: all 0.3s;
+}
+
+/* Quick Links specific */
+ul.footer-links li {
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  /* Subtle divider */
+  padding-bottom: 10px;
+}
+
+ul.footer-links li:last-child {
+  border-bottom: none;
+}
+
+ul.footer-links li a {
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+/* Hover Effects */
+ul.footer-links li a:hover,
+ul.contact-list li a:hover {
+  color: #f35525;
+  padding-left: 5px;
+  /* Small movement effect */
+}
+
+/* Copyright Section at the bottom */
+.copyright-text {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
 }
