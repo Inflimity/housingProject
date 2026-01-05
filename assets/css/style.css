@@ -2022,6 +2022,7 @@ footer li {
   /* Softer grey for readability */
   font-size: 14px;
   line-height: 26px;
+  text-align: left;
 }
 
 /* Column Spacing */
